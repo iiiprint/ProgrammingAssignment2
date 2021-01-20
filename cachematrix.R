@@ -8,16 +8,16 @@ makeCacheMatrix <- function(x = matrix()) {
   ## Provides the inverse property
   i <- NULL
   
-  ## 1ST STEP IS TO : Set the value of the matrix
+  ## 1ST STEP IS TO: Set the value of the matrix
   set <- function(y) {
     x <<- y
     i <<- NULL  
   }
   
-  ## 2ND STEP IS TO : Get the value of the matrix
+  ## 2ND STEP IS TO: Get the value of the matrix
   get <- function() x
   
-  ## 3RD STEP IS TO : Set the values of the inverse matrix
+  ## 3RD STEP IS TO: Set the values of the inverse matrix
   setInverse <- function(inverse) i <<- inverse
   
   ## LASTLY, THE 4TH STEP IS TO : Get the value of the inverse matrix
