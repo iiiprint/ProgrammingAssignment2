@@ -41,6 +41,7 @@ cacheSolve <- function(x, ...) {
     return(i)
   }
   
+  
   ## Get the matrix from the object
   m <- x$get()
   
