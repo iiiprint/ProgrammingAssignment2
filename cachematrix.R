@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## LASTLY, THE 4TH STEP IS TO : Get the value of the inverse matrix
   getInverse <-function() i
   
-  ## Generate a list for the function
+  ## Generate a list for the given function:
   list(set = set,
        get = get,
        setInverse = setInverse,
